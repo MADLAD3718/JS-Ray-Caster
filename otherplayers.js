@@ -43,7 +43,9 @@ class OtherPlayers {
 					if (lowestOrder <= player.order && player.order !== 0) {
 						player.order--;
 					}
-					// This reorders all players when someone leaves to get enemy position hosting working at all times and have it be seamless across player leaves and joins
+					// This reorders all players when someone leaves to get enemy
+					// position hosting working at all times and have it be seamless
+					// across player leaves and joins
 				}
 			}
 
